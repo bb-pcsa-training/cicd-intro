@@ -5,7 +5,7 @@ env:
     DOCKERHUB_PASS: AppDeploy
     DOCKERHUB_USERNAME: AppDeploy
 phases:
-  install: # Install AWS cli, maven
+  install: # Install AWS cli, maven, et all
     runtime-versions:
       java: latest
     commands:
